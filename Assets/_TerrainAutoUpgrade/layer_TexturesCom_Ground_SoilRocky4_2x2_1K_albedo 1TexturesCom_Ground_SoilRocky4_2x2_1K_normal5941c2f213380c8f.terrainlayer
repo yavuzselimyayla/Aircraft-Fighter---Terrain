@@ -7,15 +7,15 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: layer_TexturesCom_Ground_SoilRocky4_2x2_1K_albedo 1TexturesCom_Ground_SoilRocky4_2x2_1K_normal5941c2f213380c8f
-  m_DiffuseTexture: {fileID: 2800000, guid: b1b672c613646a64f92e3357acfc97d7, type: 3}
+  m_DiffuseTexture: {fileID: 2800000, guid: df4ded4efe9039142a3d4512ddae1637, type: 3}
   m_NormalMapTexture: {fileID: 2800000, guid: 6b65a6f489425744f8fe5aebb63a975b, type: 3}
   m_MaskMapTexture: {fileID: 0}
-  m_TileSize: {x: 5000, y: 5000}
+  m_TileSize: {x: 1000, y: 1000}
   m_TileOffset: {x: 0, y: 0}
   m_Specular: {r: 0, g: 0, b: 0, a: 0}
   m_Metallic: 0.595
   m_Smoothness: 0
-  m_NormalScale: 0.5
+  m_NormalScale: 1
   m_DiffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
   m_DiffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
   m_MaskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
