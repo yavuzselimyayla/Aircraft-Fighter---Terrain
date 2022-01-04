@@ -47,7 +47,7 @@ MonoBehaviour:
   terrain: {fileID: 0}
   water:
     waterTransform: {fileID: 0}
-    waterLevel: 100
+    waterLevel: 0
     waterBankHeight: 30
     waterObjectScale: {x: 1, y: 1}
     waterPositionOffset: {x: 0, y: 0}
@@ -55,36 +55,36 @@ MonoBehaviour:
     Rock:
       SurfaceTextures:
       - TextureMode: 1
-        textureTileSize: {x: 1, y: 1}
+        textureTileSize: {x: 2000, y: 2000}
         Texture: {fileID: 2800000, guid: 3207cf96d749f4440a5be75fcdd47175, type: 3}
         NormalMap: {fileID: 2800000, guid: e2f8e2b8a95dc0e42ac1a3e0cca030c3, type: 3}
         TextureOpacity: 1
         minHeightOn: 0
         maxHeightOn: 0
-      rockTerrainAngleLower: 15
-      rockTerrainAngleUpper: 65
+      rockTerrainAngleLower: 5
+      rockTerrainAngleUpper: 70
     Grass:
       SurfaceTextures:
       - TextureMode: 1
-        textureTileSize: {x: 1, y: 1}
+        textureTileSize: {x: 1000, y: 1000}
         Texture: {fileID: 2800000, guid: eb4dfcfd86e63b14e8614a292cf19339, type: 3}
         NormalMap: {fileID: 2800000, guid: cf3054fb1aa342542affaceef0df9cea, type: 3}
         TextureOpacity: 1
         minHeightOn: 0
         maxHeightOn: 0
-      grassMaxAltitude: 3000
-      grassBoundaryHeight: 500
+      grassMaxAltitude: 2000
+      grassBoundaryHeight: 100
     Sand:
       SurfaceTextures:
       - TextureMode: 1
-        textureTileSize: {x: 1, y: 1}
-        Texture: {fileID: 0}
-        NormalMap: {fileID: 0}
+        textureTileSize: {x: 2000, y: 2000}
+        Texture: {fileID: 2800000, guid: 3207cf96d749f4440a5be75fcdd47175, type: 3}
+        NormalMap: {fileID: 2800000, guid: e2f8e2b8a95dc0e42ac1a3e0cca030c3, type: 3}
         TextureOpacity: 1
         minHeightOn: 0
         maxHeightOn: 0
   ui:
-    tab: 1
+    tab: 3
     subTab: 2
     textureIndex: 00000000000000000000000000000000
   runOnGameStart: 0
